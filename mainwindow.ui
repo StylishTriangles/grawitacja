@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Super Star Galactica</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <widget class="QToolBox" name="toolBox">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>10</y>
+      <width>81</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="toolBoxPage1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>81</width>
+       <height>87</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Symulacja</string>
+     </property>
+     <property name="toolTipDuration">
+      <number>2</number>
+     </property>
+     <property name="statusTip">
+      <string>Symulacja</string>
+     </property>
+     <property name="whatsThis">
+      <string>Symulacja</string>
+     </property>
+     <property name="accessibleName">
+      <string>Symulacja</string>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <attribute name="label">
+      <string>Simulation</string>
+     </attribute>
+     <widget class="QPushButton" name="pauseToggle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pause</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="borderToggle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Border: ON</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="borderToggle_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>placeholder</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="toolBoxPage2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>81</width>
+       <height>87</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Physics</string>
+     </attribute>
+     <widget class="QPushButton" name="bouncyToggle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bouncy: OFF</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="gravityToggle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gravity: ON</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="borderToggle_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>placeholder</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
